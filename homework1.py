@@ -2,14 +2,14 @@ import platform
 vers = platform.python_version()
 assert vers[0] == '3', "You must use Python 3, "+vers+" is not acceptable"
 print("Python 3 confirmed.")
-# num_cookies = input("How many cookies do you want to make? ")
-# recipe_mult = 12/num_cookies
-# butter = str(125*recipe_mult)+"g butter"
-# sugar = 225*recipe_mult+"g sugar"
-# eggs = str(max(1,round(recipe_mult))+" eggs"
-# vanilla = str(recipe_mult)+" tsp vanilla extract"
-# flour = str(225*recipe_mult)+g flour
-# salt = str(0.5*recipe_mult)+" tsp salt"
+num_cookies = input("How many cookies do you want to make? ")
+recipe_mult = 12/int(num_cookies)
+butter = str(125*recipe_mult)+"g butter"
+sugar = str(225*recipe_mult)+"g sugar"
+eggs = str(max(1,round(recipe_mult))+" eggs"
+vanilla = str(recipe_mult)+" tsp vanilla extract"
+flour = str(225*recipe_mult)+"g flour"
+salt = str(0.5*recipe_mult)+" tsp salt"
 # str(200*recipe_mult)+"g chocolate chips" = chips
 # print(butter)
 # print("sugar")
