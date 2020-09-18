@@ -22,11 +22,11 @@ print(salt)
 print(chips)
 
 
-# amt = float(input("Enter the loan amount in dollars: ")
-# N = int(input("Enter the loan duration in months: "))
-# r = input("Enter the % annual interest rate: ")/100/12
-# payment = r*amt/1 - (1+r)**(-n)
-# print("Your monthly payment is: " + round(payment,2))
+# amt = float(input("Enter the loan amount in dollars: "))
+# n = int(input("Enter the loan duration in months: "))
+# r = int(input("Enter the % annual interest rate: "))/100/12
+# payment = int((r*amt)/(1 - (1+r)**(-n)))
+# print("Your monthly payment is: " + str(round(payment,2)))
 # Office Hours (leave these lines commented out, this isn't Python code)
-# Name of the TA who you visited in office hours:
-# Above TA's favorite color:
+# Name of the TA who you visited in office hours:Charley Menken
+# Above TA's favorite color:Blue
