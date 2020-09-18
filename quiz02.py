@@ -12,3 +12,7 @@ cupcake_allocate = buy_cupcakes // guests
 leftover_cake = buy_cupcakes % guests
 apples_allocate = buy_apples // guests
 leftover_apple = buy_apples % guests
+print("Each guest can have",cupcake_allocate, "cupcakes.")
+print("There will be", leftover_cake ,"cupcakes left over.")
+print("Each guest can have", apples_allocate, "apples.")
+print("There will be",leftover_apple, "apples left over.")
