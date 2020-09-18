@@ -8,7 +8,7 @@ buy_apples = int(input("How many apples are you buying?"))
 remain_money = remain_money - buy_apples*2
 print("You have",remain_money,"dollars left.")
 guests = int(input("How many people are at the party?"))
-cupcake_allocate =
-leftover_cake = 
-apples_allocate = 
-leftover_apple =
+cupcake_allocate = buy_cupcakes // guests
+leftover_cake = buy_cupcakes % guests
+apples_allocate = buy_apples // guests
+leftover_apple = buy_apples % guests
